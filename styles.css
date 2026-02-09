@@ -20,11 +20,19 @@ body {
     background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
     height: 100vh;
     width: 37vw;
+    max-width: 687px;
+    max-height: 1030px;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo_container {
     background-color: rgb(0,0,0,0.3);
+    margin-top: 20vh; 
+    text-align: center;
+    padding: 20px 0px;
+    line-height: 0px;
 }
 
 .logo_image {
@@ -35,13 +43,12 @@ body {
     color: white;
     font-size: 100px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    vertical-align: 15px;
 }
 
 .authorImage_info {
     color: white;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
+    margin: 550px auto 0 auto;
 }
 
 .authorImage_info a {
@@ -50,4 +57,26 @@ body {
 
 .form_container {
     width: 63vw;
+
+}
+
+.title_form {
+    height: 35vh;
+    padding: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.inputs {
+    height: 30vh;
+    padding: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.submit_logIn {
+    height: 35vh;
+    padding: 30px;
+    border: 1px solid black;
+    overflow: hidden;
 }
